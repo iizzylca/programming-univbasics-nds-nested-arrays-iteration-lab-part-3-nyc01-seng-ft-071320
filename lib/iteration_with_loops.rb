@@ -6,6 +6,7 @@ def join_nested_strings(src)
   while row_index < src.count do
     element_index = 0
     while element_index < src.count do
+      pry
       if src[row_index][element_index] == " "
         string_array << src[row_index][element_index]
       end
