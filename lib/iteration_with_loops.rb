@@ -1,16 +1,12 @@
-#require 'pry'
 def join_nested_strings(src)
-#binding.pry
   string_array= []
   row_index = 0
   while row_index < src.count do
     element_index = 0
     while element_index < src[row_index].count do
-      binding.pry
       string = src[row_index] - (-1..233).to_a
       element_index +=1
     end
-    binding.pry
     row_index +=1
     string_array << string
   end
