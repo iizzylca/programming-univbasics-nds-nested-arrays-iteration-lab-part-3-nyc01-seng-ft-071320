@@ -6,7 +6,7 @@ def join_nested_strings(src)
   while row_index < src.count do
     element_index = 0
     while element_index < src[row_index].count do
-      #binding.pry
+      binding.pry
       string = src[row_index] - (-1..233).to_a
       element_index +=1
     end
