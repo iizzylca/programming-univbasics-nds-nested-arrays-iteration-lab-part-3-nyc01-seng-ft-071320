@@ -10,6 +10,7 @@ def join_nested_strings(src)
       string = src[row_index] - (-1..233).to_a
       element_index +=1
     end
+    binding.pry
     row_index +=1
     string_array << string
   end
