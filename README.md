@@ -15,7 +15,7 @@ money is in the grid.
 guessing_game_grid = [
     e.index
    0  1  2  3  4
-   
+
 0 [1, 2, 1, 7, 3],
 
 1 [2, 100, 15, 4, 18],
