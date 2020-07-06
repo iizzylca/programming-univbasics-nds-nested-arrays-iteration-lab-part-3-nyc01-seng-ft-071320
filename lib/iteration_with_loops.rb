@@ -10,8 +10,8 @@ def join_nested_strings(src)
       string = src[row_index] - (1..9).to_a
       element_index +=1
     end
-    string_array << src[row_index][element_index]
     row_index +=1
+    string_array << string
   end
   string_array
 end
