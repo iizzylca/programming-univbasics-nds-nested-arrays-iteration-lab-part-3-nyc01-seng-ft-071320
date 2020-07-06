@@ -17,10 +17,10 @@ guessing_game_grid = [
     e.index
 
      0  1  2  3  4
-r.i 
+r.i
                             .count 1
 0   [1, 2, 1, 7, 3],
-    
+
 1   [2, 100, 15, 4, 18],    .count 2
 
 2   [15, 16, 99, 1, 2, 11]  .count 3
