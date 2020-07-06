@@ -7,11 +7,10 @@ def join_nested_strings(src)
     element_index = 0
     while element_index < src[row_index].count do
       #binding.pry
-      if src[row_index][element_index]== " "
-        string_array << src[row_index][element_index]
-      end
+      src[row_index][element_index]== " "
       element_index +=1
     end
+    string_array << src[row_index][element_index]
     row_index +=1
   end
   string_array
