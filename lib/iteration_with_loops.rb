@@ -7,7 +7,7 @@ def join_nested_strings(src)
     element_index = 0
     while element_index < src[row_index].count do
       #binding.pry
-      src[row_index][element_index] == " "
+      string = src[row_index] - (1..9).to_a
       element_index +=1
     end
     string_array << src[row_index][element_index]
